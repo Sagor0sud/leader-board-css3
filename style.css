@@ -1,0 +1,23 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Oswald:wght@200;400&family=Poppins:wght@500&display=swap');
+
+/* common font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top player style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
